@@ -1,0 +1,6 @@
+#ignore all files in the following directories
+node_modules/
+bower_components/
+_db_backups/
+_notes/
+git/

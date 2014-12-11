@@ -1,0 +1,185 @@
+/* CSS Document */
+/*	--------------------------------------------------
+	:: Home Page Carousel
+	-------------------------------------------------- */
+/******************/
+/*** carousel ***/
+/******************/
+/*common colors*/
+.carousel-container {
+  width: 100%;
+  height: 20.5em;
+  display: block;
+  overflow: hidden;
+  border-left: solid 1px #095688;
+  border-right: solid 1px #095688;
+  border-bottom: solid 1px #095688;
+  z-index: -1;
+}
+.carousel-controls {
+  height: 2.8em;
+  margin-top: .25em;
+  margin-bottom: 2.8em;
+}
+.carousel_slides {
+  height: 100%;
+  position: relative;
+}
+.slide {
+  display: block;
+  height: 100%;
+  float: left;
+  visibility: hidden;
+  /* Small devices (tablets, 768px and up) */
+  /* Medium devices (desktops, 992px and up) */
+  /* Large devices (large desktops, 1200px and up) */
+}
+.slide h1 {
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 300;
+  color: #0a5184;
+  font-size: 1.5em;
+  margin-top: 1%;
+  margin-bottom: 1%;
+}
+.slide .copy {
+  font-family: Arial, Helvetica, sans-serif;
+  line-height: 1.125em;
+  color: #333333;
+  font-weight: normal;
+  font-size: .9em;
+  display: inline-block;
+  width: 50%;
+}
+.slide .slide-content {
+  padding: 1% 0 0 2.5%;
+}
+@media (min-width: 768px) {
+  .slide h1 {
+    font-size: 1.75em;
+    margin-top: 1%;
+    margin-bottom: 3%;
+  }
+  .slide .copy {
+    line-height: 1.4em;
+    font-size: 1em;
+  }
+  .slide .slide-content {
+    padding: 2% 0 0 2.5%;
+  }
+}
+@media (min-width: 992px) {
+  .slide h1 {
+    font-size: 2.125em;
+    margin-top: 0;
+    margin-bottom: 3%;
+  }
+  .slide .copy {
+    line-height: 1.66em;
+    font-size: 1em;
+  }
+  .slide .slide-content {
+    padding: 3% 0 0 2.5%;
+  }
+}
+@media (min-width: 1200px) {
+  .slide h1 {
+    font-size: 2.25em;
+    margin-top: 0;
+    margin-bottom: 3%;
+  }
+  .slide .copy {
+    line-height: 1.66em;
+    font-size: 1.125em;
+  }
+  .slide .slide-content {
+    padding: 4% 0 0 2.5%;
+  }
+}
+#car-slide {
+  background: transparent url(../img/slide1-bg.jpg) center no-repeat;
+  background-size: contain;
+}
+#aid-slide {
+  background: transparent url(../img/slide2-bg.jpg) center no-repeat;
+  background-size: contain;
+}
+#alz-slide {
+  background: transparent url(../img/slide3-bg.jpg) center no-repeat;
+  background-size: contain;
+}
+#vet-slide {
+  background: transparent url(../img/slide4-bg.jpg) center no-repeat;
+  background-size: contain;
+}
+.carouselButton {
+  -moz-box-shadow: inset 0px 39px 0px -24px #9a988c;
+  -webkit-box-shadow: inset 0px 39px 0px -24px #9a988c;
+  box-shadow: inset 0px 39px 0px -24px #9a988c;
+  background: -webkit-gradient(linear, left top, left bottom, color-stop(0.05, #838177), color-stop(1, #838177));
+  background: -moz-linear-gradient(top, #838177 5%, #838177 100%);
+  background: -webkit-linear-gradient(top, #838177 5%, #838177 100%);
+  background: -o-linear-gradient(top, #838177 5%, #838177 100%);
+  background: -ms-linear-gradient(top, #838177 5%, #838177 100%);
+  background: linear-gradient(to bottom, #838177 5%, #838177 100%);
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#838177', endColorstr='#838177', GradientType=0);
+  background-color: #838177;
+  -moz-border-radius: 3px;
+  -webkit-border-radius: 3px;
+  border-radius: 3px;
+  display: inline-block;
+  color: #333333;
+  width: 100%;
+  text-align: center;
+  font-family: arial;
+  font-size: .91em;
+  font-weight: normal;
+  padding: .66em 0;
+  text-decoration: none;
+  margin: .1em 0;
+}
+.carouselButton:last-child,
+.carouselButton :last-child a {
+  float: right;
+}
+.carouselButton:hover {
+  background: -webkit-gradient(linear, left top, left bottom, color-stop(0.05, #6b6961), color-stop(1, #6b6961));
+  background: -moz-linear-gradient(top, #6b6961 5%, #6b6961 100%);
+  background: -webkit-linear-gradient(top, #6b6961 5%, #6b6961 100%);
+  background: -o-linear-gradient(top, #6b6961 5%, #6b6961 100%);
+  background: -ms-linear-gradient(top, #6b6961 5%, #6b6961 100%);
+  background: linear-gradient(to bottom, #6b6961 5%, #6b6961 100%);
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#6b6961', endColorstr='#6b6961', GradientType=0);
+  color: #ffffff;
+  font-weight: normal;
+  background-color: #6b6961;
+}
+.carouselButton.selected {
+  -moz-box-shadow: inset 0px 39px 0px -24px #0288b1;
+  -webkit-box-shadow: inset 0px 39px 0px -24px #0288b1;
+  box-shadow: inset 0px 39px 0px -24px #0288b1;
+  background: -webkit-gradient(linear, left top, left bottom, color-stop(0.05, #027497), color-stop(1, #027497));
+  background: -moz-linear-gradient(top, #027497 5%, #027497 100%);
+  background: -webkit-linear-gradient(top, #027497 5%, #027497 100%);
+  background: -o-linear-gradient(top, #027497 5%, #027497 100%);
+  background: -ms-linear-gradient(top, #027497 5%, #027497 100%);
+  background: linear-gradient(to bottom, #027497 5%, #027497 100%);
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#027497', endColorstr='#027497', GradientType=0);
+  color: #ffffff;
+  background-color: #027497;
+  text-shadow: 0px 1px 0px #b23e35;
+}
+.carouselButton.selected:hover {
+  background: -webkit-gradient(linear, left top, left bottom, color-stop(0.05, #027497), color-stop(1, #027497));
+  background: -moz-linear-gradient(top, #027497 5%, #027497 100%);
+  background: -webkit-linear-gradient(top, #027497 5%, #027497 100%);
+  background: -o-linear-gradient(top, #027497 5%, #027497 100%);
+  background: -ms-linear-gradient(top, #027497 5%, #027497 100%);
+  background: linear-gradient(to bottom, #027497 5%, #027497 100%);
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#027497', endColorstr='#027497', GradientType=0);
+  background-color: #027497;
+}
+.carouselButton:active {
+  position: relative;
+  top: 1px;
+}
