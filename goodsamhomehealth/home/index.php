@@ -94,7 +94,7 @@ text-decoration:underline;
             <div class="third">
                 <ul>
                     <li><a href="http://youtu.be/ZDhRSKVc87Y" target="_blank">Failing Memory Video</a></li>
-                    <li><a href="" target="_blank">WBBZ Video</a></li> 
+                    <!-- <li><a href="" target="_blank">WBBZ Video</a></li> --> 
                     <li><a href="../services/arrival-assurance.php">Arrival Assurance</a></li>                               
                     <li><a href="../services/va-aid-attendance.php">Veterans Programs and Services</a></li>    
                 </ul> 
