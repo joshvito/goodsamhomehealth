@@ -32,7 +32,7 @@
 			speed: 7000,	//rotation speed and timer defaults 1000 = 1sec
 			delay: 30000,//time in ms to restart autoscroll after a click
 			autostart: true,
-			debug: true
+			debug: false
          }, options);
 		
 		//debug to console
@@ -204,7 +204,8 @@
 			}
 						
 			//create a listener for a mousedown on buttons, and cancel the autostart for set period of time
-			$(defaults.carouselButtons).on('mousedown','a', function(){
+			$(defaults.carouselButtons).on('mousedown','a', function(e){
+				//e.preventDefault();
 				defaults.autostart = false;
 				$this = $(this);
 				myLog('stop the auto');//debug
