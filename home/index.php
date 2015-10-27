@@ -82,7 +82,7 @@ text-decoration:underline;
             <div class="slide" id="vet-slide">
             	<div class="slide-content">
                     <h1>Veterans Programs</h1>
-                    <span class="copy">Many of our Veterans and their surviving spouses are eligible for the VA Aid and Attendance benefit.  This is a federally funded benefit for veterans who served in World War II, December 7, 1941 – December 31, 1046, Korean War, June 27, 1950 – January 31, 1955, Vietnam War, August 5, 1964 – May 7, 1975 and Persian Gulf War, August 2, 1990.<a href="/services/va-aid-attendance.php">Learn more</a></span>
+                    <span class="copy">Many of our Veterans and their surviving spouses are eligible for the VA Aid and Attendance benefit.  This is a federally funded benefit for veterans who served in World War II, December 7, 1941 – December 31, 1946, Korean War, June 27, 1950 – January 31, 1955, Vietnam War, August 5, 1964 – May 7, 1975 and Persian Gulf War, August 2, 1990.<a href="/services/va-aid-attendance.php">Learn more</a></span>
                 </div>
             </div>
         </div>
@@ -125,7 +125,7 @@ text-decoration:underline;
                 <ul>
                     <li><a href="/jobs/">Job Opportunities</a></li>
                     <li><a href="/home/our-caregivers.php">Our Caregivers</a></li> 
-                    <li><a href="/src/downloads/GSHHA-app-extended.pdf" target="new">Employment Application</a></li>                               
+                    <li><a href="/src/downloads/GSHHA-app-extended.pdf" download="GSHHA-app-extended.pdf">Employment Application</a></li>                               
                     <li>Good Samaritan Home Health Agency is a NYS licensed home care provider. We have been providing care and compassion since 2007.</li>    
                 </ul>
             </div>                               

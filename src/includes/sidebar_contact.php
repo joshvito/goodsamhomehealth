@@ -13,7 +13,7 @@
             <address itemprop="address" itemscope itemtype="http://schema.org/PostalAddress">
                 <span itemprop="streetAddress">3871 Harlem Road, Unit 110</span><br>
                 <span itemprop="addressLocality">Cheektowaga</span>,
-                <span itemprop="addressRegion">NY</span> 14225 <span itemprop="addressCountry">USA</span>
+                <span itemprop="addressRegion">NY</span> 14215 <span itemprop="addressCountry">USA</span>
             </address>
         <!-- 5500 Main Street<br />
         Suite 109<br />

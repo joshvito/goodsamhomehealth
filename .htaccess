@@ -1,0 +1,27 @@
+AddType application/octet-stream .pdf
+
+# Block Russian Referrer Spam
+RewriteEngine on
+RewriteCond %{HTTP_REFERER} ^http://.*ilovevitaly\.com/ [NC,OR]
+RewriteCond %{HTTP_REFERER} ^http://.*ilovevitaly.\.ru/ [NC,OR]
+RewriteCond %{HTTP_REFERER} ^http://.*ilovevitaly\.org/ [NC,OR]
+RewriteCond %{HTTP_REFERER} ^http://.*ilovevitaly\.info/ [NC,OR]
+RewriteCond %{HTTP_REFERER} ^http://.*iloveitaly\.ru/ [NC,OR]
+RewriteCond %{HTTP_REFERER} ^http://.*econom\.co/ [NC,OR]
+RewriteCond %{HTTP_REFERER} ^http://.*savetubevideo\.com/ [NC,OR]
+RewriteCond %{HTTP_REFERER} ^http://.*kambasoft\.com/ [NC,OR]
+RewriteCond %{HTTP_REFERER} ^http://.*buttons\-for\-website\.com/ [NC,OR]
+RewriteCond %{HTTP_REFERER} ^http://.*semalt\.com/ [NC,OR]
+RewriteCond %{HTTP_REFERER} ^http://.*floating\-share\-buttons\.com/ [NC,OR]
+RewriteCond %{HTTP_REFERER} ^http://.*traffic2money\.com/ [NC,OR]
+RewriteCond %{HTTP_REFERER} ^http://.*4webmasters\.org/ [NC,OR]
+RewriteCond %{HTTP_REFERER} ^http://.*get\-free\-social\-traffic\.com/ [NC,OR]
+RewriteCond %{HTTP_REFERER} ^http://.*trafficmonetizer\.org/ [NC,OR]
+RewriteCond %{HTTP_REFERER} ^http://.*floating\-share\-buttons\.com/ [NC,OR]
+RewriteCond %{HTTP_REFERER} ^http://.*satellite\.maps\.ilovevitaly\.com/ [NC,OR]
+RewriteCond %{HTTP_REFERER} ^http://.*free\-social\-buttons\.com/ [NC,OR]
+RewriteCond %{HTTP_REFERER} ^http://.*Get\-Free\-Traffic\-Now\.com/ [NC,OR]
+RewriteCond %{HTTP_REFERER} ^http://.*free\-floating\-buttons\.com/ [NC,OR]
+RewriteCond %{HTTP_REFERER} ^http://.*centurylink\.net/ [NC,OR]
+RewriteCond %{HTTP_REFERER} ^http://.*darodar\.com/ [NC]
+RewriteRule ^(.*)$ – [F,L]
