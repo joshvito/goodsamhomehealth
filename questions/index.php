@@ -83,7 +83,7 @@
     
 	<div class="col-xs-12 col-sm-4 col-sm-pull-8">
     	<div class="drk-blu-side">
-        	<p class="callout">"Our Home Health Aides and Personal Care Aides are certified by completing a Department of Health approved curriculum."</p>
+        	<aside class="callout">"Our Home Health Aides and Personal Care Aides are certified by completing a Department of Health approved curriculum."</aside>
         </div>
     	<?php @include('../src/includes/sidebar_contact.php'); ?>
     </div>
@@ -99,10 +99,9 @@
 <script type="text/javascript">
 /* trigger when page is ready */
 $(document).ready(function (){
-
-$('.squishy.body-copy').squishy({maxWidth: 340, minSize: 12, maxSize:14});
-$('#page-title').replaceWith("<span id='page-title'>" + $('title').text().split('|')[0] + "</span>");
-$('#accordion').accordion({ heightStyle: "content" });//set up accordian //requires jquery ui
+    $('.squishy.body-copy').squishy({maxWidth: 340, minSize: 12, maxSize:14});
+    $('#page-title').replaceWith("<span id='page-title'>" + $('title').text().split('|')[0] + "</span>");
+    $('#accordion').accordion({ heightStyle: "content" });//set up accordian //requires jquery ui
 });<!-- end doc ready -->
 
 </script>

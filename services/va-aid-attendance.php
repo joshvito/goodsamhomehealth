@@ -81,7 +81,7 @@
     
 	<div class="col-xs-12 col-sm-4 col-sm-pull-8">
     	<div class="drk-blu-side">
-        	<p class="callout">"Together, we help veterans and their surviving spouses complete the application and assist you through all phases of the application process."</p>
+        	<aside class="callout">"Together, we help veterans and their surviving spouses complete the application and assist you through all phases of the application process."</aside>
         </div>
         <?php @include('../src/includes/sidebar_contact.php'); ?>    
         

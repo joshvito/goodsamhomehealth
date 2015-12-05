@@ -6,7 +6,7 @@
     <div class="drk-blu-side">
         <h3>Contact Us</h3>
         <p itemprop="name">Good Samaritan Home Health Agency</p>
-        <p><span itemprop="telephone" content="+17167838124">(716) 783-8124</span><br />
+        <p><span itemprop="telephone" content="+17167838124"><a href="tel:+17167838124">(716)783-8124</a></span><br />
         <a href="mailto:info@goodsamhomehealth.com" class="squishy body-copy" itemprop="email">info@GoodSamHomeHealth.com</a>
         </p>
         <p>
@@ -15,9 +15,6 @@
                 <span itemprop="addressLocality">Cheektowaga</span>,
                 <span itemprop="addressRegion">NY</span> 14215 <span itemprop="addressCountry">USA</span>
             </address>
-        <!-- 5500 Main Street<br />
-        Suite 109<br />
-        Williamsville, NY 14221<br /> -->
         </p>
     </div>
 </section>

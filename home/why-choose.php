@@ -71,7 +71,7 @@
     
 	<div class="col-xs-12 col-sm-4 col-sm-pull-8">
     	<div class="drk-blu-side">
-        	<p class="callout">"We offer the most comprehensive, cost-effective service menu."</p>
+        	<aside class="callout">"We offer the most comprehensive, cost-effective service menu."</aside>
         </div>
         <?php @include('../src/includes/sidebar_contact.php'); ?>    
         

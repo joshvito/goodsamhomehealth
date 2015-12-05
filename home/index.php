@@ -114,7 +114,7 @@ text-decoration:underline;
                 <ul>
                     <li><a href="/contact/">Contact Us</a></li>
                     <li class="squishy"><a href="mailto:info@GoodSamHomeHealth.com" >info@GoodSamHomeHealth.com</a></li> 
-                    <li>1 (716) 783-8124</li>                               
+                    <li><span itemprop="telephone"><a href="tel:+17167838124">(716)783-8124</a></span></li>                               
                     <li><a href="http://www.facebook.com/pages/Williamsville-NY/Good-Samaritan-Caregivers/176839322350?ref=nf" target="_blank">Find Us on Facebook</a></li>    
                 </ul>
             </div>                               

@@ -34,34 +34,40 @@
     	<div class="main-image"><img alt="hero image elder care" src="../src/img/slide4-bg.png" style="display:none;"/></div>
         <div class="body-content">
             <h1>Client Stories</h1>
-            <p>
-            Dear Michelle and Tim,<br>
-You made my day on Sunday.  Thank you so much, but the important thing is you thought of me. Thank you for your caring.<br>
-<span class="med-blu">Margaret K.<br>
-East Amherst, NY</span>
-            </p>
+            <article>
+                <p>
+                Dear Michelle and Tim,<br>
+                You made my day on Sunday.  Thank you so much, but the important thing is you thought of me. Thank you for your caring.<br>
+                <span class="med-blu">Margaret K.<br>
+                East Amherst, NY</span>
+                </p>
+            </article>
             <hr>
-            <p>
-To All of You at Good Samaritan CareGivers,<br>
-Thank you so very much for the wonderful caring that I receive from you! Holiday greetings to all.<br>
-<span class="med-blu">Peggy A.<br>
-Williamsville, NY</span>
-            </p>
+            <article>
+                <p>
+                To All of You at Good Samaritan CareGivers,<br>
+                Thank you so very much for the wonderful caring that I receive from you! Holiday greetings to all.<br>
+                <span class="med-blu">Peggy A.<br>
+                Williamsville, NY</span>
+                </p>
+            </article>
             <hr>
-            <p>
-Hi Michelle,<br>
-Merry Christmas to you and your family.  Thanks again for all you did to communicate and fill in the missing help my family could not provide.  You certainly have a talent for doing this job with professional acumen that not many provide.<br>
-<span class="med-blu">Best regards.<br>
-Don S.<br>
-Mill Valley, CA</span> 
-            </p>
+            <article>
+                <p>
+                Hi Michelle,<br>
+                Merry Christmas to you and your family.  Thanks again for all you did to communicate and fill in the missing help my family could not provide.  You certainly have a talent for doing this job with professional acumen that not many provide.<br>
+                <span class="med-blu">Best regards.<br>
+                Don S.<br>
+                Mill Valley, CA</span> 
+                </p>
+            </article>
                 
 		</div> 
     </div>
     
 	<div class="col-xs-12 col-sm-4 col-sm-pull-8">
     	<div class="drk-blu-side">
-        	<p class="callout">"You certainly have a talent for doing this job with professional acumen that not many provide."</p>
+        	<aside class="callout">"You certainly have a talent for doing this job with professional acumen that not many provide."</aside>
         </div>
     	<?php @include('../src/includes/sidebar_contact.php'); ?>
     </div>

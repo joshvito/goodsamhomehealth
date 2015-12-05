@@ -52,14 +52,14 @@
                 <div><p>The mood and personalities of people with Alzheimer's can change.  They can become confused, suspicious, depressed, fearful or anxious.  They may be easily upset at home, at work, with friends or in places where they are out of their comfort zone.</p></div>
             </div><!-- end accordian -->
             
-            <h4 class="med-blu">If these one of these signs describes to your loved one, give us a call, (716)204-0710, we can help.</h4>
+            <h4 class="med-blu">If these one of these signs describes to your loved one, give us a call, <span itemprop="telephone"><a href="tel:+17167838124">(716)783-8124</a></span>, we can help.</h4>
 
         </div> 
     </div>
     
 	<div class="col-xs-12 col-sm-4 col-sm-pull-8">
     	<div class="drk-blu-side">
-        	<p class="callout">"One of the most common signs of Alzheimer's is forgetting <em>recently</em> learned information."</p>
+        	<aside class="callout">"One of the most common signs of Alzheimer's is forgetting <em>recently</em> learned information."</aside>
         </div>
     	<?php @include('../src/includes/sidebar_contact.php'); ?>
         <div class="lt-blu-side" style="background-color:transparent;">

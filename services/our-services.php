@@ -115,7 +115,7 @@
 
 	<div class="col-xs-12 col-sm-4 col-sm-pull-8">
     	<div class="drk-blu-side">
-        	<p class="callout">We are a faith-based company guided by the biblical Good Samaritan in our treatment of our clients – "to always be caring and compassionate."</p>
+        	<aside class="callout">We are a faith-based company guided by the biblical Good Samaritan in our treatment of our clients – "to always be caring and compassionate."</aside>
         </div>
     	<?php @include('../src/includes/sidebar_contact.php'); ?>
     </div>

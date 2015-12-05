@@ -36,7 +36,7 @@
     
 	<div class="col-xs-12 col-sm-4 col-sm-pull-8">
     	<div class="drk-blu-side">
-        	<p class="callout">"Our Aides use the client's phone to call a toll-free system to log their arrival and departure."</p>
+        	<aside class="callout">"Our Aides use the client's phone to call a toll-free system to log their arrival and departure."</aside>
         </div>
     	<?php @include('../src/includes/sidebar_contact.php'); ?>
     </div>

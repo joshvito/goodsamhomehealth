@@ -4,7 +4,7 @@
     <span class="sr-only">Good Samaritan Home Health Agency</span>
     <img src="../src/img/GSHHA.png" alt="Good Samaritan Home Health Agency" >
   </div>
-  <div class="col-xs-6 col-sm-5"><p>Call Us Today (716) 783-8124<br />Licensed Home Care Services Agency</p></div>
+  <div class="col-xs-6 col-sm-5"><p>Call Us Today <span itemprop="telephone"><a href="tel:+17167838124">(716)783-8124</a></span><br />Licensed Home Care Services Agency</p></div>
 </div>
 
 <!-- Navigation -->

@@ -78,6 +78,7 @@ text-decoration:underline;
             <li><a href="/assessment/" title="">Assessment Interview</a></li>
             <li><a href="/client-stories/" title="">Client Stories</a></li>
             <li><a href="/questions/" title="">Frequently Asked Questions (FAQ)</a></li>
+            <li><a href="/questions/newsletters-resources.php" title="">Newsletters &amp; Resources</a></li>
             <li><a href="/contact/" title="">Contact Us</a></li>
         </ul>
         <ul>

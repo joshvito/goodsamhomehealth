@@ -72,7 +72,7 @@
     
 	<div class="col-xs-12 col-sm-4 col-sm-pull-8">
     	<div class="drk-blu-side">
-        	<p class="callout">"We try to learn as much as possible about you and your loved one so we may assemble a highly personalized Care Plan."</p>
+        	<aside class="callout">"We try to learn as much as possible about you and your loved one so we may assemble a highly personalized Care Plan."</aside>
         </div>
         <?php @include('../src/includes/sidebar_contact.php'); ?>    
         <div class="lt-blu-side" style="background-color:transparent;">

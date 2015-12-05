@@ -70,7 +70,7 @@
     
 	<div class="col-xs-12 col-sm-4 col-sm-pull-8">
     	<div class="drk-blu-side">
-        	<p class="callout">"We have a very systematic process of hiring and training that ensures we have the 'Cream of the Crop' of caregivers."</p>
+        	<aside class="callout">"We have a very systematic process of hiring and training that ensures we have the 'Cream of the Crop' of caregivers."</aside>
         </div>
         <?php @include('../src/includes/sidebar_contact.php'); ?>    
         
