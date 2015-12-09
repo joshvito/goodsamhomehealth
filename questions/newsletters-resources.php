@@ -45,10 +45,10 @@
                         <p>Looking for more information? Take a look at the linked website below, or give us a call, 
                             <span itemprop="telephone"><a href="tel:+17167838124">(716)783-8124</a></span>, we'd be happy to talk.</p>
                         <ul>
-                            <li><a href="alz.org" target="external_link">Alzheimer's Association</a></li>
-                            <li><a href="networkinaging.com" target="external_link">Network In Aging</a></li>
-                            <li><a href="www.gcmofwny.com" target="external_link">Geriatric Care Managers of Western New York</a></li>
-                            <li><a href="www.eldercarewny.com" target="external_link">Elder Care of WNY</a></li>
+                            <li><a href="http://alz.org" target="external_link">Alzheimer's Association</a></li>
+                            <li><a href="http://networkinaging.com" target="external_link">Network In Aging</a></li>
+                            <li><a href="http://www.gcmofwny.com" target="external_link">Geriatric Care Managers of Western New York</a></li>
+                            <li><a href="http://www.eldercarewny.com" target="external_link">Elder Care of WNY</a></li>
                         </ul>
                     </div>
                 </article>
