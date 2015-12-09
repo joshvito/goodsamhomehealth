@@ -11,7 +11,7 @@
 <style type="text/css">
 /***  page specific styles ****/
 .main-image{
-	background:transparent url(../src/img/int-meds-couch-bg.jpg) 95% -1% no-repeat;
+	background:transparent url(../src/img/int-our-services.jpg) 95% -1% no-repeat;
 }
 </style>
 

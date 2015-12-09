@@ -105,6 +105,7 @@ text-decoration:underline;
                     <li><a href="https://www.youtube.com/watch?v=a-U9PpmzHpw" target="_blank" title="Watch the Video: What's the Buzz featuring Good Samaritan Home Health">Good Samaritan featured on WBBZ - Video</a></li> 
                     <li><a href="/services/arrival-assurance.php">Arrival Assurance</a></li>                               
                     <li><a href="/services/va-aid-attendance.php">Veterans Programs and Services</a></li>    
+                    <li><a href="/questions/newsletters-resources.php">Newsletters &amp; Additional Resources</a></li>    
                 </ul> 
             </div>                             
         </div>
@@ -115,7 +116,7 @@ text-decoration:underline;
                     <li><a href="/contact/">Contact Us</a></li>
                     <li class="squishy"><a href="mailto:info@GoodSamHomeHealth.com" >info@GoodSamHomeHealth.com</a></li> 
                     <li><span itemprop="telephone"><a href="tel:+17167838124">(716)783-8124</a></span></li>                               
-                    <li><a href="http://www.facebook.com/pages/Williamsville-NY/Good-Samaritan-Caregivers/176839322350?ref=nf" target="_blank">Find Us on Facebook</a></li>    
+                    <li><a href="https://www.facebook.com/goodsamhomehealthagency/" target="_blank">Find Us on Facebook</a></li>    
                 </ul>
             </div>                               
         </div>

@@ -25,7 +25,6 @@
       <div class="collapse navbar-collapse navbar-ex1-collapse">
           <ul  class="nav navbar-nav">
               <li><a href="/home/">Home</a></li>
-              <!-- <li><a href="/home/why-choose.php">Why Choose Us</a></li> -->
               <li class="dropdown">
                <a href="#" class="dropdown-toggle" data-toggle="dropdown">Why Choose Us <b class="caret"></b></a>
                   <ul class="dropdown-menu">
@@ -38,19 +37,17 @@
                   <ul class="dropdown-menu">
                       <li><a href="/services/caring-compassion.php">Caring &amp; Compassion</a></li>
                       <li><a href="/services/our-services.php">Our Services</a></li>
-                      <!-- <li role="presentation" class="divider"></li>
-                      <li role="presentation" class="dropdown-header">Alzheimers &amp; Dementia</li>
-                      <li><a href="/services/alzheimers-warning-signs.php">Learn the 10 Warning Signs of Alzheimer's Disease</a></li>
-                      <li><a href="/services/alzheimers-dementia.php">Alzheimers &amp; Dementia Care</a></li>
-                      <li role="presentation" class="divider"></li>
-                      <li role="presentation" class="dropdown-header">Veterans Care</li>
-                      <li><a href="/services/veterans.php">Veterans Programs</a></li>
-                      <li><a href="/services/va-aid-attendance.php">VA Aid and Attendance</a></li> -->
                   </ul>
               </li>
               <li><a href="/assessment/">Assessment Interview</a></li>
               <li><a href="/client-stories/">Client Stories</a></li>
               <li><a href="/questions/">FAQ</a></li>
+              <li class="dropdown">
+               <a href="#" class="dropdown-toggle" data-toggle="dropdown">Resource <b class="caret"></b></a>
+                  <ul class="dropdown-menu">
+                      <li><a href="/questions/newsletters-resources.php">Newsletters &amp; Additional Resources</a></li>
+                  </ul>
+              </li>
               <li><a href="/contact/">Contact</a></li>
           </ul>
       </div>
