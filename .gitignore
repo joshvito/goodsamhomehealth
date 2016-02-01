@@ -4,3 +4,4 @@ bower_components/
 _db_backups/
 _notes/
 git/
+**/sftp-config.json
