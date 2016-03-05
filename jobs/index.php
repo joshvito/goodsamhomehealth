@@ -41,7 +41,7 @@
             </article>
 <!--             <section>
                 <p>
-                    Please email resumes or <a href="../src/downloads/GSHHA-app-extended.pdf" target="new">download application</a> and mail to:<br>5500 Main Street, Suite 109, Williamsville, NY 14221. <br>Call Employment Hotline for more information: (716) 568-2019.
+                    Please email resumes or <a href="../src/downloads/Application_for_Employment.doc" target="new">download application</a> and mail to:<br>5500 Main Street, Suite 109, Williamsville, NY 14221. <br>Call Employment Hotline for more information: (716) 568-2019.
                 </p>
             </section> -->
                 
@@ -55,10 +55,10 @@
     	<?php @include('../src/includes/sidebar_contact.php'); ?>
         <div class="lt-blu-side" style="background-color:transparent;">
             <h3>Employment Application</h3>
-            <p>Good Samaritan has immediate openings, to apply: Mail us a completed <a href="../src/downloads/GSHHA-app-extended.pdf" download="GSHHA-app-extended.pdf">employment application</a> or <a href="mailto:goodsamhomehealth.com">email us</a> your resume.</p>
+            <p>Good Samaritan has immediate openings, to apply: Mail us a completed <a href="../src/downloads/Application_for_Employment.doc" download="Application_for_Employment.doc">employment application</a> or <a href="mailto:goodsamhomehealth.com">email us</a> your resume.</p>
         </div>
         <div class="lt-blu-side" style="background-color:transparent;">
-            <p>For More Information, Call Our Employment Hotline <span itemprop="telephone"><a href="tel:+17165682019">(716)568-2019</a></span>.</p>
+            <p>For More Information, Call Our Employment Hotline <span itemprop="telephone"><a href="tel:+17167838125">(716)783-8125</a></span>.</p>
         </div>
     </div>
 </section>

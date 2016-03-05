@@ -126,7 +126,7 @@ text-decoration:underline;
                 <ul>
                     <li><a href="/jobs/">Job Opportunities</a></li>
                     <li><a href="/home/our-caregivers.php">Our Caregivers</a></li> 
-                    <li><a href="/src/downloads/GSHHA-app-extended.pdf" download="GSHHA-app-extended.pdf">Employment Application</a></li>                               
+                    <li><a href="/src/downloads/Application_for_Employment.doc" download="Application_for_Employment.doc">Employment Application</a></li>                               
                     <li>Good Samaritan Home Health Agency is a NYS licensed home care provider. We have been providing care and compassion since 2007.</li>    
                 </ul>
             </div>                               

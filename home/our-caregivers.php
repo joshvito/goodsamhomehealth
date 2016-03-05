@@ -42,7 +42,7 @@
                     <span class="med-blu bold">Employment Hotline.</span> All interested applicants are directed to call our Employment Hotline, (716)568-2019, to learn more about the Aide position. We want all applicants to know as much about the position and our special dedication to helping our patients, especially Seniors in a faith-based manner.
                 </p>
                 <p>
-                    <span class="med-blu bold">Application.</span> All applicants must come to our office to obtain an application or <a href="../src/downloads/GSHHA-app-extended.pdf" target="new">download the application from our website</a>. 
+                    <span class="med-blu bold">Application.</span> All applicants must come to our office to obtain an application or <a href="../src/downloads/Application_for_Employment.doc" target="new">download the application from our website</a>. 
                 </p>
                 <p>
                     <span class="med-blu bold">Interviews.</span> Each applicant is interviewed. We are seeking only those Aides who can demonstrate examples of caring and compassion.

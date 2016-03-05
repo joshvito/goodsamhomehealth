@@ -83,7 +83,7 @@ text-decoration:underline;
         </ul>
         <ul>
             <li><a href="/jobs/" title="">Job Opportunities</a></li>
-            <li><a href="/src/downloads/GSHHA-app-extended.pdf" title="">Employment Application</a></li>
+            <li><a href="/src/downloads/Application_for_Employment.doc" title="">Employment Application</a></li>
         </ul>
     </div>
 
