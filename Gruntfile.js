@@ -7,8 +7,8 @@ module.exports = function(grunt) {
 	less: {
 	  development: {
 		files: {
-		  "home-2013/src/css/global.css": ["home-2013/src/css/global.less"],
-  		  "home-2013/src/css/home-carousel.css": ["home-2013/src/css/home-carousel.less"]
+		  "src/css/global.css": ["src/css/global.less"],
+  		  "src/css/home-carousel.css": ["src/css/home-carousel.less"]
 		  }
 	  }
 	},
@@ -16,13 +16,13 @@ module.exports = function(grunt) {
   cssmin: {
     combine: {
       files: {
-        'home-2013/src/css/global.min.css': ['bower_components/bootstrap/dist/css/bootstrap.min.css','home-2013/src/css/global.css']
+        'src/css/global.min.css': ['bower_components/bootstrap/dist/css/bootstrap.min.css','src/css/global.css']
       }
     }
   },
 
   jshint: {
-    beforeconcat: ['home-2013/src/js/*.js', '!home-2013/src/js/min/*.js','!home-2013/src/js/ie.js','!home-2013/src/js/production.js']
+    beforeconcat: ['src/js/*.js', '!src/js/min/*.js','!src/js/ie.js','!src/js/production.js']
   },
 
   concat: {
@@ -31,7 +31,7 @@ module.exports = function(grunt) {
         'bower_components/bootstrap/assets/js/html5shiv.js',
 	      'bower_components/bootstrap/assets/js/respond.min.js'
       ],
-      dest: 'home-2013/src/js/ie.js'
+      dest: 'src/js/ie.js'
     },
     dist: {
       src: [
@@ -39,16 +39,16 @@ module.exports = function(grunt) {
 	  'bower_components/Squishy.js/jquery.squishy.js',
 	  'bower_components/bootstrap/assets/js/respond.min.js'
       ],
-      dest: 'home-2013/src/js/production.js'
+      dest: 'src/js/production.js'
     }
   },
 
   uglify: {
     build: {
       files:{
-		 'home-2013/src/js/min/production.min.js': ['home-2013/src/js/production.js'],
-		 'home-2013/src/js/min/ie.min.js': ['home-2013/src/js/ie.js'],
-		 'home-2013/src/js/min/jquery.responsiveCarousel.min.js':['home-2013/src/js/jquery.responsiveCarousel.js']
+		 'src/js/min/production.min.js': ['src/js/production.js'],
+		 'src/js/min/ie.min.js': ['src/js/ie.js'],
+		 'src/js/min/jquery.responsiveCarousel.min.js':['src/js/jquery.responsiveCarousel.js']
 	}
     }
   },
@@ -59,7 +59,7 @@ module.exports = function(grunt) {
       nonull:true,
       cwd: 'bower_components/Catch-All-PHP-Form-Processor/',
       src: ['*.php', '!sample*'],
-      dest: 'home-2013/src/scripts/',
+      dest: 'src/scripts/',
       flatten:true
     },
   },
@@ -67,18 +67,27 @@ module.exports = function(grunt) {
   watch: {
 
     scripts: {
-      files: ['home-2013/src/js/*.js'],
+      files: ['src/js/*.js', '!src/js/min/*.js'],
       tasks: ['jshint','concat', 'uglify'],
       options: {
-        spawn: false,
+        // spawn: false,
       }
     },
     css: {
-      files: ['home-2013/src/css/*.less'],
+      files: ['src/css/*.less'],
       tasks: ['less', 'cssmin'],
       options: {
-        spawn: false,
+        // spawn: false,
       }
+    }
+  },
+
+  concurrent: {
+    options: {
+      logConcurrentOutput: true
+    },
+    dev: {
+      tasks: ["watch:scripts", "watch:css"]
     }
   }
 
@@ -90,6 +99,6 @@ module.exports = function(grunt) {
   // Default Task is basically a rebuild
   grunt.registerTask('default', ['concat', 'uglify', 'less', 'cssmin', 'copy']);
 
-  grunt.registerTask('dev', ['watch']);
+  grunt.registerTask('dev', ['concurrent']);
 
 };

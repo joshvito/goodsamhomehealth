@@ -98,7 +98,7 @@ text-decoration:underline;
 
 </div><!-- end container-->      
 
-<script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+<script src="//ajax.googleapis.com/ajax/libs/jquery/1.12.0/jquery.min.js"></script>
 <script src="/src/js/min/production.min.js"></script>
 <script type="text/javascript">
 /* trigger when page is ready */

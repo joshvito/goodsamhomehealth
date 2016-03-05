@@ -226,7 +226,7 @@ font-weight: 300;
 	background-color:#ebebeb;
 	margin-top:.25em;
 	margin-bottom:.5em;
-				
+	
 	.callout {
 		font-size:1.5em;
 		line-height:1.5em;
@@ -239,8 +239,8 @@ font-weight: 300;
 		height:18em;
 		margin-bottom:.33em;
 		-webkit-box-shadow: inset 0px 0px 10px 1px rgba(0, 0, 0, .15);
-        box-shadow: inset 0px 0px 10px 1px rgba(0, 0, 0, .15);			
-		}
+        box-shadow: inset 0px 0px 10px 1px rgba(0, 0, 0, .15);
+	}
 	.drk-blu-side, .lt-blu-side{margin:0;padding:1em;}
 	.drk-blu-side{
 		background-color:#0385ae;
@@ -266,9 +266,16 @@ font-weight: 300;
 	}
 	.body-content{
 		background-color:@lt-gray-body-cont-bg;
-		padding:.66em;	
+		padding:.66em;
+		
+		&.no-sidebar{
+    		background-color: #fff;
+		}	
 		h1{
 			color:@med-blu;	
+		}
+		h3 {
+			margin-bottom: 1em;
 		}
 		p{
 			line-height:1.35em;	
@@ -345,6 +352,20 @@ font-weight: 300;
 		ul.no-marker {
 			li:before {
 				content: "- ";
+			}
+		}
+
+		#pca-training-form{
+			background-color: @lt-gray-body-cont-bg;
+			padding: 0.75em;
+			.form-control.inline{
+				&.inline {
+					display: inline-block;
+					width: 32%;
+					&:last-child{
+						float: right;
+					}
+				}
 			}
 		}
 	}
