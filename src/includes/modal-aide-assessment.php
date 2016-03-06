@@ -14,13 +14,13 @@
             <input name="required-subject" type="hidden" value="Aide Assessment Form Submitted">
             <fieldset class="textInput">
                 <label for="fullname">Contact Name*</label>
-                <input name="required-your-name" id="fullname" type="text" placeholder="Contact Name" required  />
+                <input name="required-your-name" id="fullname" type="text" placeholder="Contact Name" required autocomplete="name" />
             
                 <label for="email">Email*</label>
-                <input name="required-your-email" id="email" type="email" placeholder="Email" required />
+                <input name="required-your-email" id="email" type="email" placeholder="Email" required autocomplete="email" />
             
                 <label for="tel">Telephone</label>
-                <input name="tel" id="tel" type="tel" placeholder="555-123-4567" />
+                <input name="tel" id="tel" type="tel" autocomplete="tel" placeholder="555-123-4567" />
             </fieldset>
             
             <fieldset class="chkBoxes">

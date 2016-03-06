@@ -74,6 +74,12 @@ text-decoration:underline;
             <li><a href="/services/alzheimers-dementia.php" title="">Alzheimers &amp; Dementia Care</a></li>
             <li><a href="/services/va-aid-attendance.php" title="">Veterans Programs and Services</a></li>
         </ul>
+        
+    </div>
+    <div class="col-xs-4">
+        <h1>&nbsp;</h1>
+
+        
         <ul>
             <li><a href="/assessment/" title="">Assessment Interview</a></li>
             <li><a href="/client-stories/" title="">Client Stories</a></li>
@@ -83,6 +89,7 @@ text-decoration:underline;
         </ul>
         <ul>
             <li><a href="/jobs/" title="">Job Opportunities</a></li>
+            <li><a href="/jobs/pca-training-program.php" title="">PCA Training Program</a></li>
             <li><a href="/src/downloads/Application_for_Employment.doc" title="">Employment Application</a></li>
         </ul>
     </div>

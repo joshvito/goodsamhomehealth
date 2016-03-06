@@ -26,7 +26,7 @@
 <div class="main-container">    
 <section class="row">
 	<div class="col-xs-12">
-    	<div class="main-image"><img alt="hero image elder care" src="../src/img/slide4-bg.png" style="display:none;"/></div>
+    	<div class="main-image"></div>
         <div class="body-content no-sidebar">
             <h1>Personal Care Aide Training Program</h1>
             <h3 class="med-blu">Begin an Exciting healthcare career: Register below.</h3>
@@ -38,53 +38,7 @@
                     </p>
                 </div>
                 <div class="col-xs-12 col-sm-6">
-                    <form action=""  class="form-horizontal" id="pca-training-form">
-                        <div class="form-group">
-                            <label for="fullname" class="col-sm-3 control-label">Full Name</label>
-                            <div class="col-sm-9">
-                                <input type="text" class="form-control" name="full-name" id="fullname" required placeholder="First Last" autocomplete="name">
-                            </div>
-                        </div>
-
-                        <div class="form-group">
-                            <label for="address1" class="col-sm-3 control-label">Address</label>
-                            <div class="col-sm-9">
-                                <input type="text" class="form-control" name="address" id="address1" required placeholder="123 Any Street" autocomplete="street-address">
-                            </div>
-                        </div>
-                        <div class="form-group">
-                            <label for="address2" class="col-sm-3 control-label sr-only">City State Zip</label>
-                            <div class="col-sm-9">
-                                <input type="text" class="form-control inline" name="city" id="address2" required placeholder="City" autocomplete="locality">
-                                <input type="text" class="form-control inline" name="state" id="address3" required placeholder="State" autocomplete="region">
-                                <input type="text" class="form-control inline" name="zip" id="address4" required placeholder="Zip" autocomplete="postal-code">
-                            </div>
-                        </div>
-
-                        <div class="form-group">
-                            <label for="mobile" class="col-sm-3 control-label">Cell Phone</label>
-                            <div class="col-sm-9">
-                                <input type="tel" class="form-control" name="phone" id="mobile" required placeholder="+1-716-555-5555" autocomplete="tel">
-                            </div>
-                        </div>
-
-                        <div class="form-group">
-                            <label for="frmEmailA" class="col-sm-3 control-label">Email</label>
-                            <div class="col-sm-9">
-                                <input type="email" class="form-control" name="email" id="frmEmailA" placeholder="name@example.com" required autocomplete="email">
-                            </div>
-                        </div>
-
-                        <div class="form-group">
-                            <div class="col-sm-9 col-sm-push-3">
-                                <div class="checkbox">
-                                    <input type="checkbox" name="confirm-contact" id="more-info">
-                                    <label for="more-info">Yes, Contact me with more info.</label>
-                                </div>
-                                <button type="submit" class="btn btn-primary pull-right">Submit</button>
-                            </div>
-                        </div>
-                    </form>
+                    <?php @include('../src/includes/pca-interest-form.php'); ?>
                 </div>        
             </div>
                 
@@ -104,11 +58,39 @@
 /* trigger when page is ready */
 $(document).ready(function (){
 
-$('.squishy.body-copy').squishy({maxWidth: 340, minSize: 12, maxSize:14});
-$('#page-title').replaceWith("<span id='page-title'>" + $('title').text().split('|')[0] + "</span>");
+    $('.squishy.body-copy').squishy({maxWidth: 340, minSize: 12, maxSize:14});
+    $('#page-title').replaceWith("<span id='page-title'>" + $('title').text().split('|')[0] + "</span>");
+    
+    // $("form[name='pca-interest-form']").on("submit", function(e){
+    //     e.preventDefault();
+    //     formSubmit.go("form[name='pca-interest-form']");
+    //     return false;
+    // });
+});
 
-});<!-- end doc ready -->
-
+var formSubmit = (function (){
+    var formId;
+    function go(FormId){
+        formId = $(FormId);
+        var url = formId.attr("action"),
+            formMethod = formId.attr("method");
+            console.log(formId.serialize());
+        $.ajax({
+            type: formMethod,
+            data: formId.serialize(),
+            url: url
+        })
+        .done(function(data, textStatus, jqXHR){
+            console.log(jqXHR);
+        })
+        .fail(function(){
+            console.log(error);
+        });
+    }    
+    return {
+        go:go
+    };
+}());
 </script>
 </body>
 </html>

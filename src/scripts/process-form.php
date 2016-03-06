@@ -26,7 +26,9 @@ require(dirname(__FILE__).'/process-form-settings.php');
 
    //load the form dependant on the formname field in form post data
    if($_POST[$formname_field] == "contact-form"){
-      define('CUSTOM_FORM', "../includes/contact-form.php");
+      define('CUSTOM_FORM', $contact_form);
+   } elseif($_POST[$formname_field] == "pca-interest-form"){
+      define('CUSTOM_FORM', $pcs_interest_form);
    }
    else {
       define('CUSTOM_FORM', $custom_form);

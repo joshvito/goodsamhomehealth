@@ -40,6 +40,7 @@
                 <p>Information on how to join our team of caring and compassionate caregivers.</p>
                 <ul>
                     <li><a href="../jobs/">Job Opportunities</a></li>
+                    <li><a href="../jobs/pca-training-program.php">PCA Training Program</a></li>
                     <li><a href="../home/our-caregivers.php">Our Caregivers</a></li>
                     <li><a href="../src/downloads/Application_for_Employment.doc" target="new">Employment Application</a></li>                               
                 </ul>

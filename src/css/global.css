@@ -359,15 +359,15 @@ h6,
 .main-container .body-content ul.no-marker li:before {
   content: "- ";
 }
-.main-container .body-content #pca-training-form {
+.main-container .body-content #pca-interest-form {
   background-color: #f9f9f9;
   padding: 0.75em;
 }
-.main-container .body-content #pca-training-form .form-control.inline.inline {
+.main-container .body-content #pca-interest-form .form-control.inline.inline {
   display: inline-block;
   width: 32%;
 }
-.main-container .body-content #pca-training-form .form-control.inline.inline:last-child {
+.main-container .body-content #pca-interest-form .form-control.inline.inline:last-child {
   float: right;
 }
 /******************************************/
