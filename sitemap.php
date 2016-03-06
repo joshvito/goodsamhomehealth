@@ -89,7 +89,7 @@ text-decoration:underline;
         </ul>
         <ul>
             <li><a href="/jobs/" title="">Job Opportunities</a></li>
-            <li><a href="/jobs/pca-training-program.php" title="">PCA Training Program</a></li>
+            <!-- <li><a href="/jobs/pca-training-program.php" title="">PCA Training Program</a></li> -->
             <li><a href="/src/downloads/Application_for_Employment.doc" title="">Employment Application</a></li>
         </ul>
     </div>

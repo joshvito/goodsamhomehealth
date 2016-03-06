@@ -33,11 +33,10 @@
  * Will only be called if $using_template is set to TRUE
  * @var string
  */
-   
-   $custom_form         = "../includes/modal-aide-assessment.php";
-   $contact_form         = "../includes/contact-form.php";
-   $pca_interest_form         = "../includes/pca-interest-form.php";
-
+  
+   $custom_form = "../includes/modal-aide-assessment.php";
+   $contact_form = "../includes/contact-form.php";
+   $pca_interest_form = "../includes/pca-interest-form.php";
 
 
 /**
@@ -45,9 +44,8 @@
  * @var string
  * @var string
  */
- 
-   // $email_recipient     = "info@goodsamhomehealth.com";
-   $email_recipient     = "josh.vito@gmail.com";
+
+   $email_recipient     = "info@goodsamhomehealth.com";
    $bcc_recipient       = "";   // Optional
 
 

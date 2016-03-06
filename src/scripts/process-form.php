@@ -11,7 +11,6 @@
 require(dirname(__FILE__).'/process-form-settings.php');
 
 
-
 /**
  * You shouldn't edit below this line unless you're familiar enough with PHP
  * While this script is only an intermediate level of PHP I do not guarantee

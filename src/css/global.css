@@ -286,6 +286,11 @@ h6,
 }
 .main-container .body-content.no-sidebar {
   background-color: #fff;
+  padding-left: 0;
+  padding-right: 0;
+}
+.main-container .body-content.no-sidebar h3 {
+  margin-top: 0;
 }
 .main-container .body-content h1 {
   color: #0a5184;

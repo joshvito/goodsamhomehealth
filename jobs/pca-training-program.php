@@ -12,7 +12,8 @@
 <style type="text/css">
 /***  page specific styles ****/
 .main-image{
-	background:transparent url(../src/img/int-job-opp-bg.jpg) 96% -2% no-repeat;	
+	background:transparent url(http://i.istockimg.com/image-zoom/20115652/3/380/253/stock-photo-20115652-medical-staff-seated-in-circle-at-case-meeting.jpg) 0 15% no-repeat;	
+    background-size: cover;
 }
 
 
@@ -28,16 +29,17 @@
 	<div class="col-xs-12">
     	<div class="main-image"></div>
         <div class="body-content no-sidebar">
-            <h1>Personal Care Aide Training Program</h1>
-            <h3 class="med-blu">Begin an Exciting healthcare career: Register below.</h3>
+            <h1 class="squishy">Personal Care Aide Training Program</h1>
+            
             <div class="row">
-                <div class="col-xs-12 col-sm-6">
+                <div class="col-xs-12 col-sm-6" style="padding-top:.5em">
+                    <h3 class="med-blu">Begin an Exciting healthcare career:<br>Register below.</h3>
                     <p>Become a highly respected healthcare professional today. Enroll in the <span class="bold">FREE</span> Good Samaritan Personal Care Aide Training Program.
                     <br><br>Classes are forming continuously. New classes start every 4-6 weeks.
                     <br><br>Earn your PCA Certificate in <span class="bold">8 short days!</span> Classes are limited to 10 students, so enroll today.
                     </p>
                 </div>
-                <div class="col-xs-12 col-sm-6">
+                <div class="col-xs-12 col-sm-6" style="padding-top:.5em">
                     <?php @include('../src/includes/pca-interest-form.php'); ?>
                 </div>        
             </div>
@@ -58,39 +60,11 @@
 /* trigger when page is ready */
 $(document).ready(function (){
 
-    $('.squishy.body-copy').squishy({maxWidth: 340, minSize: 12, maxSize:14});
+    $('.squishy').squishy({minSize: 18, maxSize:48});
     $('#page-title').replaceWith("<span id='page-title'>" + $('title').text().split('|')[0] + "</span>");
-    
-    // $("form[name='pca-interest-form']").on("submit", function(e){
-    //     e.preventDefault();
-    //     formSubmit.go("form[name='pca-interest-form']");
-    //     return false;
-    // });
 });
 
-var formSubmit = (function (){
-    var formId;
-    function go(FormId){
-        formId = $(FormId);
-        var url = formId.attr("action"),
-            formMethod = formId.attr("method");
-            console.log(formId.serialize());
-        $.ajax({
-            type: formMethod,
-            data: formId.serialize(),
-            url: url
-        })
-        .done(function(data, textStatus, jqXHR){
-            console.log(jqXHR);
-        })
-        .fail(function(){
-            console.log(error);
-        });
-    }    
-    return {
-        go:go
-    };
-}());
+
 </script>
 </body>
 </html>

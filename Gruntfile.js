@@ -73,6 +73,13 @@ module.exports = function(grunt) {
         // spawn: false,
       }
     },
+    php: {
+      files: ['bower_components/Catch-All-PHP-Form-Processor/*.php', '!sample*'],
+      tasks: ['copy'],
+      options: {
+        // spawn: false,
+      }
+    },
     css: {
       files: ['src/css/*.less'],
       tasks: ['less', 'cssmin'],
@@ -87,7 +94,7 @@ module.exports = function(grunt) {
       logConcurrentOutput: true
     },
     dev: {
-      tasks: ["watch:scripts", "watch:css"]
+      tasks: ["watch:scripts", "watch:css", "watch:php"]
     }
   }
 
