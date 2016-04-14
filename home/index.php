@@ -116,7 +116,7 @@ text-decoration:underline;
                     <li><a href="/contact/">Contact Us</a></li>
                     <li class="squishy"><a href="mailto:info@GoodSamHomeHealth.com" >info@GoodSamHomeHealth.com</a></li> 
                     <li><span itemprop="telephone"><a href="tel:+17167838124">(716)783-8124</a></span></li>                               
-                    <li><a href="https://www.facebook.com/goodsamhomehealthagency/" target="_blank">Find Us on Facebook</a></li>    
+                    <li style="cursor:pointer;"><a href="https://www.facebook.com/goodsamhomehealthagency/" target="_blank"><img  alt="Find Us on Facebook" src="/src/img/FB-FindUsonFacebook-online-100.png" /></a></li>    
                 </ul>
             </div>                               
         </div>
