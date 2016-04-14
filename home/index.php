@@ -143,6 +143,8 @@ text-decoration:underline;
    include_once($path);
 ?>    
 
+<!-- semcasting retargeting pixel -->
+<iframe width="0" height="0" name="Trade Desk Tracking - Retargeting Pixel" frameborder="0" scrolling="no" src="//insight.adsrvr.org/tags/16j4pt2/2xw4hzg/iframe"></iframe>
 </div><!-- end container-->      
 
 <script src="//ajax.googleapis.com/ajax/libs/jquery/1.12.0/jquery.min.js"></script>

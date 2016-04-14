@@ -321,7 +321,7 @@ if ( ! USING_TEMPLATE ) :
 <head>
 <title><?php echo $title ?></title>
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
-<meta name="author" content="Erik Reagan, erikreagan.com"/>
+
 <style type="text/css" media="screen,print">
 * {
    margin: 0;
@@ -415,6 +415,8 @@ echo $block;
 if ( ! USING_TEMPLATE ) :
 
 ?>
+<!-- semcasting conversion tag-->
+<iframe width="0" height="0" name="Trade Desk Tracking - Conversion Pixel" frameborder="0" scrolling="no" src="//insight.adsrvr.org/tags/16j4pt2/490o8v7/iframe"></iframe>
 </body>
 </html>
 <?php endif; ?>

@@ -12,7 +12,7 @@
 <style type="text/css">
 /***  page specific styles ****/
 .main-image{
-	background:transparent url(http://i.istockimg.com/image-zoom/20115652/3/380/253/stock-photo-20115652-medical-staff-seated-in-circle-at-case-meeting.jpg) 0 15% no-repeat;	
+	background:transparent url(/src/img/int-group-training.jpg) 0 15% no-repeat;	
     background-size: cover;
 }
 
