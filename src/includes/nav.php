@@ -49,6 +49,7 @@
                   </ul>
               </li>
               <li><a href="/contact/">Contact</a></li>
+              <li><a href="/jobs/application.php">Application</a></li>
           </ul>
       </div>
     </nav>

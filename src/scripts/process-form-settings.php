@@ -37,6 +37,7 @@
    $custom_form = "../includes/modal-aide-assessment.php";
    $contact_form = "../includes/contact-form.php";
    $pca_interest_form = "../includes/pca-interest-form.php";
+   $application_form = "../includes/application.php";
 
 
 /**
@@ -46,6 +47,7 @@
  */
 
    $email_recipient     = "info@goodsamhomehealth.com";
+   // $email_recipient     = "josh.vito@gmail.com";
    $bcc_recipient       = "";   // Optional
 
 

@@ -55,7 +55,7 @@
     	<?php @include('../src/includes/sidebar_contact.php'); ?>
         <div class="lt-blu-side" style="background-color:transparent;">
             <h3>Employment Application</h3>
-            <p>Good Samaritan has immediate openings, to apply: Mail us a completed <a href="../src/downloads/Application_for_Employment.doc" download="Application_for_Employment.doc">employment application</a> or <a href="mailto:goodsamhomehealth.com">email us</a> your resume.</p>
+            <p>Good Samaritan has immediate openings, to start the application process, complete the <a href="/jobs/application.php">Employment Application</a> or <a href="mailto:goodsamhomehealth.com">email us</a> your resume.</p>
         </div>
         <div class="lt-blu-side" style="background-color:transparent;">
             <p>For More Information, Call Our Employment Hotline <span itemprop="telephone"><a href="tel:+17167838125">(716)783-8125</a></span>.</p>

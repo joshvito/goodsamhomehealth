@@ -28,6 +28,8 @@ require(dirname(__FILE__).'/process-form-settings.php');
       define('CUSTOM_FORM', $contact_form);
    } elseif($_POST[$formname_field] == "pca-interest-form"){
       define('CUSTOM_FORM', $pcs_interest_form);
+   } elseif($_POST[$formname_field] == "application-form"){
+      define('CUSTOM_FORM', $application_form);
    }
    else {
       define('CUSTOM_FORM', $custom_form);
@@ -416,7 +418,7 @@ if ( ! USING_TEMPLATE ) :
 
 ?>
 <!-- semcasting conversion tag-->
-<iframe width="0" height="0" name="Trade Desk Tracking - Conversion Pixel" frameborder="0" scrolling="no" src="//insight.adsrvr.org/tags/16j4pt2/490o8v7/iframe"></iframe>
+<!-- <iframe width="0" height="0" name="Trade Desk Tracking - Conversion Pixel" frameborder="0" scrolling="no" src="//insight.adsrvr.org/tags/16j4pt2/490o8v7/iframe"></iframe> -->
 </body>
 </html>
 <?php endif; ?>
