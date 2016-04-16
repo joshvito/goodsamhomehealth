@@ -116,7 +116,7 @@ text-decoration:underline;
                     <li><a href="/contact/">Contact Us</a></li>
                     <li class="squishy"><a href="mailto:info@GoodSamHomeHealth.com" >info@GoodSamHomeHealth.com</a></li> 
                     <li><span itemprop="telephone"><a href="tel:+17167838124">(716)783-8124</a></span></li>                               
-                    <li style="cursor:pointer;"><a href="https://www.facebook.com/goodsamhomehealthagency/" target="_blank"><img  alt="Find Us on Facebook" src="/src/img/FB-FindUsonFacebook-online-100.png" /></a></li>    
+                    <li style="cursor:pointer;"><a href="https://www.facebook.com/Good-Samaritan-Home-Health-Agency-Inc-176839322350/" target="_blank"><img  alt="Find Us on Facebook" src="/src/img/FB-FindUsonFacebook-online-100.png" /></a></li>    
                 </ul>
             </div>                               
         </div>
