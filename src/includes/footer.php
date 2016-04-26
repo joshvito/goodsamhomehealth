@@ -20,13 +20,13 @@
       "@context": "http://schema.org",
       "@type": "MedicalOrganization",
       "name": "Good Samaritan Home Health Agency",
-      "description": "Good Samaritan is a leading companion care service provider, specializing in keeping seniors in Western New York, safe and secure in their own homes for as long as possible, while maintaining their independence and dignity and providing peace-of-mind to their loved ones, by providing dependable and affordable care.",
-      "telephone": "+17162040710",
+      "description": "Good Samaritan is a senior and companion care service provider, specializing in keeping seniors in Western New York , near Buffalo, safe and secure in their own homes for as long as possible, while maintaining their independence and dignity and providing peace-of-mind to their loved ones, by providing dependable and affordable care.",
+      "telephone": "+17167838124",
       "address":
       {
       "@type": "PostalAddress",
-      "streetAddress": "5500 Main Street, Suite 109",
-      "addressLocality": "Williamsville",
+      "streetAddress": "3871 Harlem Road, Unit 110",
+      "addressLocality": "Cheektowaga",
       "addressRegion": "NY",
       "addressCountry": "USA"
       }
