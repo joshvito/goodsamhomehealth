@@ -2,7 +2,7 @@
 <html xmlns="http://www.w3.org/1999/xhtml" lang="en">
 <head>
 
-<meta name="Keywords" content="home health care provider western new york affordable in-home assistance senior care good Samaritan buffalo ny elder respite care" />
+<meta name="Keywords" content="home health care provider western new york affordable in-home assistance senior care good Samaritan Buffalo ny elder respite care" />
 <meta name="Description" content="Good Samaritan Home Health Agency is now accepting applications, apply today!" />
 
 <title>Job Application | Good Samaritan Home Health Agency</title>

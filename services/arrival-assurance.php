@@ -2,7 +2,7 @@
 <html xmlns="http://www.w3.org/1999/xhtml" lang="en">
 <head>
 
-<meta name="Keywords" content="arrival assurance, western New York, wny, buffalo ny elder respite care" />
+<meta name="Keywords" content="arrival assurance, western New York, wny, Buffalo ny elder respite care" />
 <meta name="Description" content="Arrival Assurance is our aide log system that confirms our professionalism and committment to providing outstanding care for your loved one." />
 
 <title>Arrival Assurance | Good Samaritan Home Health Agency</title>

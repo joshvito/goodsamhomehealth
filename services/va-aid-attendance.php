@@ -2,7 +2,7 @@
 <html xmlns="http://www.w3.org/1999/xhtml" lang="en">
 <head>
 
-<meta name="Keywords" content="vet, veterans affairs, veterans, va, western new york affordable buffalo ny elder respite care, compensation benefits, pension " />
+<meta name="Keywords" content="vet, veterans affairs, veterans, va, western new york affordable Buffalo ny elder respite care, compensation benefits, pension " />
 <meta name="Description" content="Good Samaritan helps eligible Veterans qualify for the VA Aid and Attendance Benefit. We work closely with Care Advisors at the New York State Division of Veterans Affairs at the Amherst Town Hall and in Hamburg, New York." />
 
 <title>Veterans Programs and Services | Good Samaritan Home Health Agency</title>

@@ -2,7 +2,7 @@
 <html xmlns="http://www.w3.org/1999/xhtml" lang="en">
 <head>
 
-<meta name="Keywords" content="companion care provider western new york affordable in-home assistance companion senior care good Samaritan caregivers buffalo ny elder respite care" />
+<meta name="Keywords" content="companion care provider western new york affordable in-home assistance companion senior care good Samaritan caregivers Buffalo ny elder respite care" />
 <meta name="Description" content="Good Samaritan is a leading companion care service provider, specializing in keeping seniors in Western New York, safe and secure in their own homes for as long as possible, while maintaining their independence and dignity and providing peace-of-mind to their loved ones, by providing dependable and affordable care." />
 
 <title>Good Samaritan Home Health Agency | Sitemap</title>

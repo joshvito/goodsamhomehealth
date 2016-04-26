@@ -3,7 +3,7 @@
 <head>
 
 <meta name="Keywords" content="employment, resources, contact us, compassionate caregivers" />
-<meta name="Description" content="Want to get in touch with Good Samaritan Home Health Agency? We offer the most comprehensive service menu." />
+<meta name="Description" content="Want to get in touch with Good Samaritan Home Health Agency? We offer the most comprehensive home, senior, service menu." />
 
 <title>Contact Us | Good Samaritan Home Health Agency</title>
 

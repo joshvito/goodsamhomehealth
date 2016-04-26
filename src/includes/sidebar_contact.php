@@ -1,7 +1,7 @@
 <section itemscope itemtype="http://schema.org/MedicalOrganization">
     <div class="lt-blu-side">
         <h3>Location</h3>
-        <p itemprop="description">Located in Cheektowaga, NY. Licensed in Erie, Allegany, Cattaraugus, Chautauqua, Genesee, Monroe, Niagara, Orleans, and Wyoming Counties.</p>
+        <p itemprop="description">We are located in the Western New York <span class="sr-only">(WNY)</span> area just outside the city of Buffalo. Licensed in Erie, Allegany, Cattaraugus, Chautauqua, Genesee, Monroe, Niagara, Orleans, and Wyoming Counties.</p>
     </div>
     <div class="drk-blu-side">
         <h3>Contact Us</h3>

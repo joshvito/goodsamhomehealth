@@ -2,7 +2,7 @@
 <html xmlns="http://www.w3.org/1999/xhtml" lang="en">
 <head>
 
-<meta name="Keywords" content="licensed, certified, NYS, LHCSA, companion care provider western new york affordable in-home assistance companion senior care good Samaritan caregivers buffalo ny elder respite care, faith based" />
+<meta name="Keywords" content="licensed, certified, NYS, LHCSA, companion care provider western new york affordable in-home assistance companion senior care good Samaritan caregivers Buffalo ny elder respite care, faith based" />
 <meta name="Description" content="Good Samaritan has a very systematic process of hiring and training that ensures we have the Cream of the Crop of caregivers." />
 
 <title>Our Caregivers | Good Samaritan Home Health Agency</title>

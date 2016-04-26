@@ -2,7 +2,7 @@
 <html xmlns="http://www.w3.org/1999/xhtml" lang="en">
 <head>
 
-<meta name="Keywords" content="services western new york affordable in-home assistance buffalo ny, menu, meal preparation, faith based, grocery, food, dietary, diet " />
+<meta name="Keywords" content="services western new york affordable in-home assistance Buffalo ny, menu, meal preparation, faith based, grocery, food, dietary, diet " />
 <meta name="Description" content="Licensed and certified professionals are ready to help you and your loved ones with a variety of activities of daily living (ADLs). Check out our service menu." />
 
 <title>Our Services | Good Samaritan Home Health Agency</title>
