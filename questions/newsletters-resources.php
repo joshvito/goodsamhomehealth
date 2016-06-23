@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+<!DOCTYPE html>
 <html xmlns="http://www.w3.org/1999/xhtml" lang="en">
 <head>
 <meta name="Keywords" content="williamsville, amhearst, wester new york, Buffalo ny elder respite care caring compassion safety security" />
@@ -36,6 +36,13 @@
                             <li><a href="/src/newsletters/Newsletter_August_2015.pdf" target="news">The Good Sam News - August 2015</a></li>
                             <li><a href="/src/newsletters/Newsletter_July_2015.pdf" target="news">The Good Sam News - July 2015</a></li>
                             <li><a href="/src/newsletters/Newsletter_May_2015.pdf" target="news">The Good Sam News - May 2015</a></li>
+                        </ul>
+
+                        <h2>White Papers</h2>
+                        <ul>
+                            <li><a href="/src/downloads/alzheimers.pdf?pdf=DownloadAlzheimersHelp" target="">Alzheimer's &amp; Dementia</a></li>
+                            <li><a href="/src/downloads/fall-prevention.pdf?pdf=DownloadFallPrevention" target="">Fall Prevention Guide</a></li>
+
                         </ul>
                     </div>
                 </article>
