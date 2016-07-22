@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+<!DOCTYPE html>
 <html xmlns="http://www.w3.org/1999/xhtml" lang="en">
 <head>
 <meta name="Keywords" content="fall prevention williamsville, amhearst, wester new york, Buffalo ny elder respite care caring compassion safety security" />
@@ -15,7 +15,6 @@ mental, physical, emotional, medical and financial will help you meet the challe
 </head>
 <body>
      
-<script src="//ajax.googleapis.com/ajax/libs/jquery/1.12.0/jquery.min.js"></script>
 
 </body>
 </html>
