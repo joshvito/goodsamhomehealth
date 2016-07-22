@@ -2,7 +2,7 @@
 <html xmlns="http://www.w3.org/1999/xhtml" lang="en">
 <head>
 <meta name="Keywords" content="williamsville, amhearst, wester new york, Buffalo ny elder respite care caring compassion safety security" />
-<meta name="Description" content="Good Samaritan is a home care agency licensed by the New York State Department of Health, specializing in helping Seniors.  We provide a variety of services that help Seniors with their Activities of Daily Living, ADLs." />
+<meta name="Description" content="Good Samaritan newsletters contain Good Sam curated content that we feel is important and useful for helping Buffalo Seniors in their homes." />
 
 <title>Newsletters and Resources | Good Samaritan Home Health Agency</title>
 
