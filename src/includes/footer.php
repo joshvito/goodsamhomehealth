@@ -26,7 +26,7 @@
       {
       "@type": "PostalAddress",
       "streetAddress": "3871 Harlem Road, Unit 110",
-      "addressLocality": "Cheektowaga",
+      "addressLocality": "Buffalo",
       "addressRegion": "NY",
       "addressCountry": "USA"
       }

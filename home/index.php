@@ -3,7 +3,7 @@
 <head>
 
 <meta name="Keywords" content="companion care provider western new york affordable in-home assistance companion senior care good Samaritan caregivers Buffalo ny elder respite care" />
-<meta name="Description" content="Good Samaritan is a leading companion, senior care home health service provider, specializing in keeping seniors in Western New York, safe and secure in their own homes for as long as possible, while maintaining their independence and dignity and providing peace-of-mind to their loved ones, by providing dependable and affordable care." />
+<meta name="Description" content="Good Samaritan is a leading companion, senior care home health service providerbased in Buffalo, specializing in keeping seniors in Western New York, safe and secure in their own homes for as long as possible, while maintaining their independence and dignity and providing peace-of-mind to their loved ones, by providing dependable and affordable care." />
 <!--<meta name="google-site-verification" content="Kc9nHGSY4O9urvk7Ju4ijAqHz_gv_9hyPZSzbl-dkeI" />-->
 
 <title>Good Samaritan Home Health Agency | Senior Care in Western New York, Buffalo</title>
