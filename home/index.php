@@ -64,25 +64,25 @@ text-decoration:underline;
             <div class="slide" id="car-slide">
             	<div class="slide-content">
                     <h1>Caring and Compassion</h1>
-                    <span class="copy">Good Samaritan is a home care agency licensed by the New York State Department of Health, specializing in helping Seniors.  We provide a variety of services that help Seniors with their Activities of Daily Living (ADLs) so they may maintain their independence and dignity while remaining in their own homes for as long as possible.    <a href="/services/caring-compassion.php">Learn more</a></span>
+                    <span class="copy">Good Samaritan is a greater Buffalo, New York home care agency licensed by the New York State Department of Health, specializing in helping Seniors.  We provide a variety of services that help Seniors with their Activities of Daily Living (ADLs) so they may maintain their independence and dignity while remaining in their own homes for as long as possible.    <a href="/services/caring-compassion.php">Learn more</a></span>
                 </div>
             </div>
             <div class="slide" id="aid-slide">
             	<div class="slide-content">
                     <h1>I Need an Aide for My Loved One</h1>
-                    <span class="copy">Once you have decided that you or your loved you would benefit from the assistance of a Good Samaritan Aide, you can expedite the process by <a href="#" data-toggle="modal" data-target="#assessmentModal">completing this brief form</a>.  You will be contacted to schedule a No Cost Assessment.  <a href="/assessment/">Learn More about the Assessment</a></span>
+                    <span class="copy">Once you have decided that you or your loved you would benefit from senior home care and the assistance of a Good Samaritan Aide, you can expedite the process by <a href="#" data-toggle="modal" data-target="#assessmentModal">completing this brief form</a>.  You will be contacted to schedule a No Cost Assessment.  <a href="/assessment/">Learn More about the Assessment</a></span>
                 </div>
             </div>
             <div class="slide" id="alz-slide">
             	<div class="slide-content">
                     <h1>Alzheimers &amp; Dementia Care</h1>
-                    <span class="copy">Good Samaritan is a leading senior care service provider, specializing in keeping seniors in Western New York, safe and secure in their own homes for as long as possible, while maintaining their independence and dignity and providing peace-of-mind to their loved ones, by providing dependable and affordable care. <a href="/services/alzheimers-dementia.php">Learn more</a></span>
+                    <span class="copy">Good Samaritan is a leading senior home care service provider, specializing in keeping seniors in greater Buffalo, New York, safe and secure in their own homes for as long as possible, while maintaining their independence and dignity and providing peace-of-mind to their loved ones, by providing dependable and affordable care. <a href="/services/alzheimers-dementia.php">Learn more</a></span>
                 </div>
             </div>
             <div class="slide" id="vet-slide">
             	<div class="slide-content">
                     <h1>Veterans Programs</h1>
-                    <span class="copy">Many of our Veterans and their surviving spouses are eligible for the VA Aid and Attendance benefit.  This is a federally funded benefit for veterans who served in World War II, December 7, 1941 – December 31, 1946, Korean War, June 27, 1950 – January 31, 1955, Vietnam War, August 5, 1964 – May 7, 1975 and Persian Gulf War, August 2, 1990.<a href="/services/va-aid-attendance.php">Learn more</a></span>
+                    <span class="copy">Many of our Veterans and their surviving spouses are eligible for the VA Aid and Attendance benefit.  This is a federally funded benefit for veterans who served in World War II, December 7, 1941 – December 31, 1946, Korean War, June 27, 1950 – January 31, 1955, Vietnam War, August 5, 1964 – May 7, 1975 and Persian Gulf War, August 2, 1990. We are fortunate to offer senior home care to our Buffalo, NY veterans.<a href="/services/va-aid-attendance.php">Learn more</a></span>
                 </div>
             </div>
         </div>

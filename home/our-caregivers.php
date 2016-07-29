@@ -39,7 +39,7 @@
                     <span class="med-blu bold">Selection, Hiring, Orientation and Training.</span>  The process of hiring our Caregivers starts with the Selection process. Not everyone meets the qualities we seek in our Caregivers - Caring &amp; Compassion.
                 </p> 
                 <p>
-                    <span class="med-blu bold">Employment Hotline.</span> All interested applicants are directed to call our Employment Hotline, (716)568-2019, to learn more about the Aide position. We want all applicants to know as much about the position and our special dedication to helping our patients, especially Seniors in a faith-based manner.
+                    <span class="med-blu bold">Employment Hotline.</span> All interested applicants are directed to call our Employment Hotline, <a href="tel:+17167838124">(716)783-8124</a>, to learn more about the Aide position. We want all applicants to know as much about the position and our special dedication to helping our patients, especially Seniors in a faith-based manner.
                 </p>
                 <p>
                     <span class="med-blu bold">Application.</span> All applicants must come to our office to obtain an application or <a href="../src/downloads/Application_for_Employment.doc" target="new">download the application from our website</a>. 

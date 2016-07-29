@@ -32,7 +32,7 @@
         <div class="body-content">
             <h1>Assessment Interview</h1>
             <p>
-                As a licensed home care agency, we are required to complete a Nurse Assessment on every prospective client or patient before we begin providing services.
+                As a licensed home care agency providing senior home care services primarily in the greater Buffalo, NY area, we are required to complete a Nurse Assessment on every prospective client or patient before we begin providing services.
             </p>
             <p>
                 We start the assessment process by conducting an in-depth assessment of you or your loved one's medical conditions and diagnosis's, current medical status, diet and dietary concerns, goals for improving health status and patient expectations.
