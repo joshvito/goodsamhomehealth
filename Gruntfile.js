@@ -36,7 +36,7 @@ module.exports = function(grunt) {
     dist: {
       src: [
 	  'bower_components/bootstrap/dist/js/bootstrap.min.js',
-	  'bower_components/Squishy.js/jquery.squishy.js',
+	  'bower_components/Squishy.js/dist/squishy.min.js',
 	  'bower_components/bootstrap/assets/js/respond.min.js'
       ],
       dest: 'src/js/production.js'
@@ -62,6 +62,14 @@ module.exports = function(grunt) {
       dest: 'src/scripts/',
       flatten:true
     },
+    fonts: {
+      expand: true,
+      nonull:true,
+      cwd: 'bower_components/bootstrap/dist/fonts/',
+      src: ['*.eot', '*.svg', '*.ttf', '*.woff'],
+      dest: 'src/fonts/',
+      flatten:true
+    }
   },
 
   watch: {

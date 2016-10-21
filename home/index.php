@@ -97,19 +97,27 @@ text-decoration:underline;
     </div><!-- end carousel buttons -->
 	
     <div class="lower-thirds-container row">
-    	<div class="col-sm-4">
-        	<h3>More Information</h3>
+    	<div class="col-sm-3 col-xs-6">
+            <h3>Free Reports</h3>
             <div class="third">
                 <ul>
-                    <li><a href="http://youtu.be/ZDhRSKVc87Y" target="_blank">Failing Memory - Video</a></li>
-                    <li><a href="https://www.youtube.com/watch?v=a-U9PpmzHpw" target="_blank" title="Watch the Video: What's the Buzz featuring Good Samaritan Home Health">Good Samaritan featured on WBBZ - Video</a></li> 
-                    <li><a href="/services/arrival-assurance.php">Arrival Assurance</a></li>                               
-                    <li><a href="/services/va-aid-attendance.php">Veterans Programs and Services</a></li>    
-                    <li><a href="/questions/newsletters-resources.php">Newsletters &amp; Additional Resources</a></li>    
+                    <li><a href="http://falls.goodsamhomehealth.com" target="_blank">Fall Prevention</a></li>
+                    <li><a href="http://hygiene.goodsamhomehealth.com" target="_blank">Personal Hygiene</a></li>
+                    <li><a href="http://alzheimers.goodsamhomehealth.com" target="_blank">Alzheimer's &amp; Dementia</a></li>
+                    <li style="font-size:.8em;">Good Samaritan Home Health Agency is a NYS licensed home care provider. We have been providing care and compassion since 2007.</li>
                 </ul> 
             </div>                             
         </div>
-    	<div class="col-sm-4">
+        <div class="col-sm-3 col-xs-6">
+            <h3>Learn More</h3>
+            <div class="third">
+                <ul>
+                    <li><i class="glyphicon glyphicon-facetime-video"></i><a href="https://www.youtube.com/watch?v=a-U9PpmzHpw" target="_blank" title="Watch the Video: What's the Buzz featuring Good Samaritan Home Health"> Good Samaritan featured on WBBZ</a></li> 
+                    <li><i class="glyphicon glyphicon-facetime-video"></i><a href="https://youtu.be/BPyRsPa2_rE" title="Watch Our TV Commercial"  target="_blank"> Watch Our TV Ad</a></li> 
+                </ul> 
+            </div>                             
+        </div>
+    	<div class="col-sm-3 col-xs-6">
         	<h3>Contact Us</h3>
             <div class="third">
                 <ul>
@@ -120,21 +128,21 @@ text-decoration:underline;
                 </ul>
             </div>                               
         </div>
-        <div class="col-sm-4">
+        <div class="col-sm-3 col-xs-6">
         	<h3>Employment</h3>
             <div class="third">
                 <ul>
                     <li><a href="/jobs/">Job Opportunities</a></li>
                     <li><a href="/home/our-caregivers.php">Our Caregivers</a></li> 
-<!--                     <li><a href="/src/downloads/Application_for_Employment.doc" download="Application_for_Employment.doc">Employment Application</a></li> -->
-                    <li>
-                        <a href="/jobs/application.php">Employment Application</a>
-                    </li>
-                    <li>Good Samaritan Home Health Agency is a NYS licensed home care provider. We have been providing care and compassion since 2007.</li>    
+                    <li><a href="/jobs/application.php">Employment Application</a></li>
+                    <li><i class="glyphicon glyphicon-headphones"></i><a href="" data-toggle="modal" data-target="#radioSpotModal"> Listen to Our Radio Spot</a></li>
+                        
                 </ul>
             </div>                               
         </div>
     </div>
+
+
 <?php
    $path = $_SERVER['DOCUMENT_ROOT'];
    $path .= "/src/includes/footer.php";
@@ -146,6 +154,25 @@ text-decoration:underline;
    include_once($path);
 ?>    
 
+<!-- RadioModal -->
+<div class="modal fade" id="radioSpotModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+  <div class="modal-dialog" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+        <h4 class="modal-title" id="myModalLabel">Good Samaritan Home Health Agency - Radio</h4>
+      </div>
+      <div class="modal-body">
+        <audio controls>
+          <source src="/src/downloads/GOOD_SAMARITAN.mp3" type="audio/mp3">
+          <p>Your browser doesn't support HTML5 audio. Here is a <a href="/src/downloads/GOOD_SAMARITAN.mp3">link to the audio</a> instead.</p>
+        </audio>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+      </div>
+    </div>
+  </div>
 <!-- semcasting retargeting pixel -->
 <iframe width="0" height="0" name="Trade Desk Tracking - Retargeting Pixel" frameborder="0" scrolling="no" src="//insight.adsrvr.org/tags/16j4pt2/2xw4hzg/iframe"></iframe>
 </div><!-- end container-->      
@@ -156,19 +183,20 @@ text-decoration:underline;
 <script type="text/javascript">
 /* trigger when page is ready */
 $(document).ready(function (){
-	//initialize the carousel
-	$('#carousel').responsiveCarousel({speed:7000, frameRatio:3.102});
-	//show slides
-	$("#carousel_slides .slide").css("visibility","visible");	
-	//fit copy text to box
-	$(".squishy").squishy({maxSize: 14, minSize: 10, maxWidth: 310});
-	//add the title to the footer if js is enabled
-	$('#page-title').replaceWith("<span id='page-title'>" + $('title').text().split('|')[1] + "</span>");
+    //initialize the carousel
+    $('#carousel').responsiveCarousel({speed:7000, frameRatio:3.102});
+    //show slides
+    $("#carousel_slides .slide").css("visibility","visible");   
+    //fit copy text to box
+    $(".squishy").squishy({maxSize: 14, minSize: 10, maxWidth: 310});
+    //add the title to the footer if js is enabled
+    $('#page-title').replaceWith("<span id='page-title'>" + $('title').text().split('|')[1] + "</span>");
     
 
 });<!-- end doc ready -->
-
 </script>
+
+</div>
 
 </body>
 </html>
