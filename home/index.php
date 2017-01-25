@@ -102,7 +102,7 @@ text-decoration:underline;
             <div class="third">
                 <ul>
                     <li><a href="http://falls.goodsamhomehealth.com" target="_blank">Fall Prevention</a></li>
-                    <li><a href="http://hygiene.goodsamhomehealth.com" target="_blank">Personal Hygiene</a></li>
+                    <!-- <li><a href="http://hygiene.goodsamhomehealth.com" target="_blank">Personal Hygiene</a></li> -->
                     <li><a href="http://alzheimers.goodsamhomehealth.com" target="_blank">Alzheimer's &amp; Dementia</a></li>
                     <li style="font-size:.8em;">Good Samaritan Home Health Agency is a NYS licensed home care provider. We have been providing care and compassion since 2007.</li>
                 </ul> 
@@ -112,6 +112,7 @@ text-decoration:underline;
             <h3>Learn More</h3>
             <div class="third">
                 <ul>
+                    <li><i class="glyphicon glyphicon-facetime-video"></i><a href="https://youtu.be/zpvKzRShkZo" target="_blank" title="Watch the Video: Good Samaritan Home Health Agency on AM Buffalo"> Good Samaritan featured on AM Buffalo</a></li> 
                     <li><i class="glyphicon glyphicon-facetime-video"></i><a href="https://www.youtube.com/watch?v=a-U9PpmzHpw" target="_blank" title="Watch the Video: What's the Buzz featuring Good Samaritan Home Health"> Good Samaritan featured on WBBZ</a></li> 
                     <li><i class="glyphicon glyphicon-facetime-video"></i><a href="https://youtu.be/BPyRsPa2_rE" title="Watch Our TV Commercial"  target="_blank"> Watch Our TV Ad</a></li> 
                 </ul> 
