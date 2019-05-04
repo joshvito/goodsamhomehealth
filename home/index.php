@@ -137,7 +137,7 @@ text-decoration:underline;
                     <li><a href="/jobs/">Job Opportunities</a></li>
                     <li><a href="/home/our-caregivers.php">Our Caregivers</a></li> 
                     <li><a href="/jobs/application.php">Employment Application</a></li>
-                    <li><i class="glyphicon glyphicon-facetime-video"></i><a href="https://www.youtube.com/watch?v=GrPuyo1Pz9U&list=PLQkN71YwPMm07cGdSr01RV9CT4E_Pq3k0" target="_blank" title="Watch the Video: Good Samaritan Home Health Agency TV Ad"> Watch Our TV Ad - April 2019</a></li>
+                    <li><i class="glyphicon glyphicon-facetime-video"></i><a href="https://www.youtube.com/watch?v=GrPuyo1Pz9U&list=PLQkN71YwPMm07cGdSr01RV9CT4E_Pq3k0" target="_blank" title="Watch the Video: Watch and Learn about Working for Good Sam"> Watch and Learn about Working for Good Sam</a></li>
                     <li><i class="glyphicon glyphicon-headphones"></i><a href="" data-toggle="modal" data-target="#radioSpotModal"> Listen to Our Radio Spot</a></li>
                         
                 </ul>
