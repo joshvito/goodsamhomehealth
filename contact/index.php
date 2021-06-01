@@ -31,9 +31,11 @@
         <div class="main-image"><img alt="hero image elder care" src="../src/img/slide1-bg.png" style="display:none;"/></div>
         <div class="body-content">
             <h1>Get in Touch with Us</h1>
-            <h3 class="med-blu">Complete the small form below to send us a message.</h3>
-            <section name="contact form" class="col-xs-12 col-sm-6">
-                <?php @include('../src/includes/contact-form.php'); ?>
+            <h3 class="med-blu">We are ready to help</h3>
+            <section name="contact infromation" class="col-xs-12 col-sm-6">
+                <p>Call us at <span itemprop="telephone" content="+17167838124"><a href="tel:+17167838124">(716)783-8124</a></span><br />
+                   Or send us an email to <a href="mailto:info@goodsamhomehealth.com" class="squishy body-copy" itemprop="email">info@GoodSamHomeHealth.com</a>
+                </p>
             </section>    
             <section name="employment details" class="col-xs-12 col-sm-6">
                 <h4>Employment Resources</h4>
@@ -44,7 +46,7 @@
                     <li><a href="../home/our-caregivers.php">Our Caregivers</a></li>
                     <li><a href="../src/downloads/Application_for_Employment.doc" target="new">Employment Application</a></li>                               
                 </ul>
-            </section>    
+            </section>
             <div style="clear:both;"></div>
         </div> 
     </div>
@@ -71,42 +73,8 @@ $(document).ready(function (){
     $('.squishy.body-copy').squishy({maxWidth: 340, minSize: 12, maxSize:14});
     $('#page-title').replaceWith("<span id='page-title'>" + $('title').text().split('|')[0] + "</span>");
 
-
-    /*$("form[name='contact-form']").on("submit", function(e){
-        e.preventDefault();
-        formSubmit.go("form[name='contact-form']");
-        return false;
-    });*/
-
 });<!-- end doc ready -->
-
-var formSubmit = (function (){
-    var formId;
-    function go(FormId){
-        formId = $(FormId);
-        var url = formId.attr("action"),
-            formMethod = formId.attr("method");
-        $.ajax({
-            type: formMethod,
-            data: formId.serialize(),
-            url: url
-        })
-        .done(function(data, textStatus, jqXHR){
-            console.log(jqXHR);
-        })
-        .fail(function(){
-            console.log(error);
-        });
-    }    
-    return {
-        go:go
-    };
-}());
 
 </script>
 </body>
 </html>
-
-
-
-
