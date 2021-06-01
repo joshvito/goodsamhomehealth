@@ -28,7 +28,7 @@
 
 .lower-thirds-container .third{
 background-color:#ccc;
-min-height:15.5em;	
+min-height:14.5em;	
 margin-bottom:2.25em;
 }
 
@@ -82,7 +82,7 @@ text-decoration:underline;
             <div class="slide" id="vet-slide">
             	<div class="slide-content">
                     <h1>Veterans Programs</h1>
-                    <span class="copy">Many of our Veterans and their surviving spouses are eligible for the VA Aid and Attendance benefit.  This is a federally funded benefit for veterans who served in World War II, December 7, 1941 ï¿½ December 31, 1946, Korean War, June 27, 1950 ï¿½ January 31, 1955, Vietnam War, August 5, 1964 ï¿½ May 7, 1975 and Persian Gulf War, August 2, 1990. We are fortunate to offer senior home care to our Buffalo, NY veterans.<a href="/services/va-aid-attendance.php">Learn more</a></span>
+                    <span class="copy">Many of our Veterans and their surviving spouses are eligible for the VA Aid and Attendance benefit.  This is a federally funded benefit for veterans who served in World War II, December 7, 1941 – December 31, 1946, Korean War, June 27, 1950 – January 31, 1955, Vietnam War, August 5, 1964 – May 7, 1975 and Persian Gulf War, August 2, 1990. We are fortunate to offer senior home care to our Buffalo, NY veterans.<a href="/services/va-aid-attendance.php">Learn more</a></span>
                 </div>
             </div>
         </div>
@@ -137,7 +137,6 @@ text-decoration:underline;
                     <li><a href="/jobs/">Job Opportunities</a></li>
                     <li><a href="/home/our-caregivers.php">Our Caregivers</a></li> 
                     <li><a href="/jobs/application.php">Employment Application</a></li>
-                    <li><i class="glyphicon glyphicon-facetime-video"></i><a href="https://www.youtube.com/watch?v=GrPuyo1Pz9U&list=PLQkN71YwPMm07cGdSr01RV9CT4E_Pq3k0" target="_blank" title="Watch the Video: Watch and Learn about Working for Good Sam"> Watch and Learn about Working for Good Sam</a></li>
                     <li><i class="glyphicon glyphicon-headphones"></i><a href="" data-toggle="modal" data-target="#radioSpotModal"> Listen to Our Radio Spot</a></li>
                         
                 </ul>
